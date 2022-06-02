@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Nunito:wght@500&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.hr{
+    width: 100%;
+    margin-left: 7.5%;
+    height: 1px;
+    background-color: black;
+}
+
+nav{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+#logo{
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+}
+
+.nav-items{
+    margin-right: 20px;
+}
+
+.nav-items > a{
+    margin: 0 4px;
+    padding: 5px 10px;
+    transition: 0.3s;
+    font-size: 16px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    color: black;
+}
+
+.nav-items > a:hover{
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+}
+
+.container{
+    padding-top: 60px;
+    width: 100vh;
+    min-height: 100vh;
+}
+
+.box{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    width: 45%;
+    position: relative;
+    bottom: 5%;
+}
+
+.name > h1{
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    
+}
+
+/* #name-name{
+    text-decoration: underline;
+    
+} */
+
+.name > .passion{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.download{
+    font-size: 17px;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+}
+
+.home-img{
+    width: 35%;
+    position: relative;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#pic{
+    z-index: 5;
+}
+
+.g1{
+    position: relative;
+    right: 20%;
+    bottom: 10%;
+    filter: drop-shadow(5px 2px 10px #f0dc2f);
+    width: 250px;
+}
+
+.g2{
+    position: relative;
+    left: 35%;
+    top: 15%;
+    width: 300px;
+    filter: drop-shadow(-7px 7px 10px #f0dc2f);
+}
+
+.about{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-self{
+    width: 38%;
+    position: relative;
+    right: 17%;
+    top: 5%;
+    font-weight: 500;
+    font-size: 20px;
+}
+
